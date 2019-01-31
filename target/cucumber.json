@@ -1,0 +1,218 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3201786103,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Search google and result content is compared accurancy",
+        "description": "",
+        "id": "search-google-and-seacrh-result-content-is-compared-accurancy-value;search-google-and-result-content-is-compared-accurancy;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 89688314,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2276771582,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to the  website",
+            "match": {
+              "location": "GoogleResultAccuracySteps.user_navigates_to_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 482894631,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"java\" search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "java",
+                  "offset": 13
+                }
+              ],
+              "location": "GoogleResultAccuracySteps.user_enters_search(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2142408945,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters searchbutton",
+            "match": {
+              "location": "GoogleResultAccuracySteps.user_enters_searchbutton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 479190815,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Searchresult is compared \"language\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "language",
+                  "offset": 26
+                }
+              ],
+              "location": "GoogleResultAccuracySteps.searchresult_is_compared(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search google and seacrh result content is compared accurancy value",
+    "description": "",
+    "id": "search-google-and-seacrh-result-content-is-compared-accurancy-value",
+    "keyword": "Feature",
+    "uri": "googlesearchresultaccuracy.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1208791017,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Search google and get link result",
+        "description": "",
+        "id": "search-goole-and-link-search-result;search-google-and-get-link-result;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 93794590,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1383607448,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates \"http://www.google.com/\" website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.google.com/",
+                  "offset": 16
+                }
+              ],
+              "location": "GoogleResultCategorySteps.user_navigates_website(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 535435593,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"java\" searchvalue",
+            "match": {
+              "arguments": [
+                {
+                  "val": "java",
+                  "offset": 13
+                }
+              ],
+              "location": "GoogleResultCategorySteps.user_enters_searchvalue(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1392243445,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters search button",
+            "match": {
+              "location": "GoogleResultCategorySteps.user_enters_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11726482993,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Searchresult list is represented on the screen and visit result search category.",
+            "match": {
+              "location": "GoogleResultCategorySteps.searchresult_list_is_represented_on_the_screen_and_visit_result_search_category()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search goole and link search result",
+    "description": "",
+    "id": "search-goole-and-link-search-result",
+    "keyword": "Feature",
+    "uri": "googlesearchresultcategory.feature"
+  }
+]
